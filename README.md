@@ -15,7 +15,7 @@ Para executar os testes deve-se possuir instalado o **Ruby**, **Bundle**, **Chro
 - *cucumber -t @testePagamentoCreditoAVista* (para executar os testes referente ao pagamento em Crédito a Vista)
 - *cucumber -t @testePagamentoCreditoParcelado* (para executar os testes referente ao pagamento em Cŕedito Parcelado)
 
-*Observações: Por conta da página não existir e a premissa do teste ser já estar na página de finalização da compra, os testes irão falhar. Portanto, está desenvolvido de acordo com as informações que há no teste.
+*Observações: Por conta da página não existir e a premissa do teste ser já estar na página de finalização da compra, os testes irão falhar. Porém os campos estão de acordo com as informações repassadas na descrição.
 
 # Sobre a Implementação
 Foram pensados e escritos os cenários em BDD, abrangendo as 3 possíveis formas de pagamento (débito, crédito à vista ou crédito parcelado) e feito o caminho feliz desses cenários, utilizando como parametrô de sucesso a mensagem de que o pedido foi realizado. Por conta do curto prazo optei por não utilizar Java e sim Ruby, por ser a linguagem de programação mais recente que tive contato. Sobre os cenários, optei por ser direto quanto ao escopo da descrição do teste também por conta do prazo, então ficaram algumas pendencias que queria ter feito, tais como: Mais cenários de teste (também com cenários de erro), validações especificas dos campos (Número de digitos do cartão, validação de data de vencimento, etc).
